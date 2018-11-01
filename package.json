@@ -1,20 +1,33 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.",
+  "main": "liri.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chrishibby75/liri-node-app.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "liri",
+    "nodejs",
+    "bot"
+  ],
+  "author": "Chris Hibberd",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chrishibby75/liri-node-app/issues"
   },
-  "homepage": "https://github.com/chrishibby75/liri-node-app#readme"
+  "homepage": "https://github.com/chrishibby75/liri-node-app#readme",
+  "dependencies": {
+    "bandsintown": "^1.0.1",
+    "dotenv": "^6.1.0",
+    "inquirer": "^6.2.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0",
+    "simple-node-logger": "^0.93.40",
+    "spotify-web-api-node": "^4.0.0"
+  }
 }
